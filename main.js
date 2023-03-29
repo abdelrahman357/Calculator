@@ -90,43 +90,4 @@ function displayElement(e) {
     }
     screen.textContent = screenValue;
   }
-  // console.log(e.target.parentElement.className === "numbers");
 }
-
-// if (valueOne.length !== 0 && operators) {
-// }
-// const display = document.createElement("div");
-// display.append(e.target.textContent);
-// display.className = "input";
-// display.style.display = "inline-block";
-// if (e.target.className === "clear") {
-//   const nop = document.querySelectorAll(".input");
-//   nop.forEach((nop) => nop.remove());
-//   return;
-// }
-// document.body.append(display);
-// if ((e.target.parentElement.className === "numbers") & (operators === "")) {
-//   valueOne += display.textContent;
-// } else if (e.target.parentElement.className === "operators") {
-//   operators = display.textContent;
-// } else if (
-//   e.target.parentElement.className === "numbers" &&
-//   operators.length === 1
-// ) {
-//   valueTwo += display.textContent;
-// }
-// if (e.target.className === "equals") {
-//   const nop = document.querySelectorAll(".input");
-//   nop.forEach((nop) => nop.remove());
-//   console.log(valueOne, valueTwo);
-//   const display = document.createElement("div");
-//   display.textContent = operate(
-//     Number(valueOne),
-//     Number(valueTwo),
-//     operators
-//   );
-//   document.body.append(display);
-//   valueOne = `${display.textContent}`;
-//   valueTwo = "";
-//   operators = "";
-// }
